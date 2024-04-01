@@ -21,7 +21,7 @@ def main():
 		
         # Get spoken input
         command = TranscribeCommand()
-		# cong: if the input from the audio is "what time is it", then system will continue the next procedure, 
+		# cong: if the input from the audio is "what time is it", then system will continue the next procedure,  
 		# to tell the time, to produce the speech , the voice of the exact tiem
 		# if the input from the audio is others, then the system will just print the transcribed text. 
         if command.lower() == 'what time is it?':
